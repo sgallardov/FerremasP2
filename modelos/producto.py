@@ -1,5 +1,3 @@
-# models/producto.py
-
 import requests
 
 API_URL = "https://ea2p2assets-production.up.railway.app"

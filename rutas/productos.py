@@ -25,3 +25,4 @@ async def ruta_crear_producto(data: dict):
     if nuevo_producto is not None:
         return nuevo_producto
     raise HTTPException(status_code=500, detail="No se pudo crear el producto")
+
